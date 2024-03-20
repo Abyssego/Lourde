@@ -228,11 +228,17 @@ namespace Lourde
             txtTelManager.IsEnabled = false;
             txtPasswordManager.IsEnabled = false;
             btnInscrir.IsEnabled = false;
+            labelInscrirNewManager.IsEnabled = false;
 
-
+            //Désactiver le changement de mot de passe
+            txtAncienPasswordChangerPassword.IsEnabled = false;
+            labelAncienPasswordChanger.IsEnabled = false;
+            labelNouveauPasswordChanger.IsEnabled = false;
+            labelMailChanger.IsEnabled = false;
+            txtNouveauPasswordChangerPassword.IsEnabled = false;
             txtMailChangerPassword.IsEnabled = false;
-            txtNouveauPasswordChangerPassword.IsEnabled = false;
-            txtNouveauPasswordChangerPassword.IsEnabled = false;
+            labelChangerPassword.IsEnabled = false;
+
 
 
             // Associez le gestionnaire d'événements Closing à votre méthode de confirmation
@@ -1594,6 +1600,7 @@ namespace Lourde
             if(passwordIsTrue)
             {
                 MessageBox.Show("Tu es connecté, bien joué");
+                //Afficher les onglets
                 tabProduit.IsEnabled = true;
                 tabRendezVous.IsEnabled = true;
                 tabEntreprise.IsEnabled = true;
@@ -1603,6 +1610,7 @@ namespace Lourde
                 tabStatistique.IsEnabled = true;
                 tabFacture.IsEnabled = true;
 
+                //Afficher la partie pour ajouter un nouveau manager
                 labelNomManager.IsEnabled = true;
                 labelPrenomManager.IsEnabled = true;
                 labelAdresseManager.IsEnabled = true;
@@ -1620,6 +1628,16 @@ namespace Lourde
                 txtTelManager.IsEnabled = true;
                 txtPasswordManager.IsEnabled = true;
                 btnInscrir.IsEnabled = true;
+                labelInscrirNewManager.IsEnabled = true;
+
+                //Afficher la partie pour changer de mot de passe
+                txtAncienPasswordChangerPassword.IsEnabled = true;
+                labelAncienPasswordChanger.IsEnabled = true;
+                labelNouveauPasswordChanger.IsEnabled = true;
+                labelMailChanger.IsEnabled = true;
+                txtNouveauPasswordChangerPassword.IsEnabled = true;
+                txtMailChangerPassword.IsEnabled = true;
+                labelChangerPassword.IsEnabled = true;
             }
         }
 

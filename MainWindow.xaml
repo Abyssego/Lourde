@@ -22,7 +22,7 @@
                     <Button x:Name="btnConnexion" Content="Connexion" Margin="445,342,969,328" Click="btnConnexion_Click"/>
                     <Label Content="Mot de passe :" Margin="0,268,1311,418" FontSize="18" Height="50" HorizontalAlignment="Right"/>
                     <Label Content="Se connecter :" Margin="0,124,1052,558" FontSize="18" HorizontalAlignment="Right"/>
-                    <Label Content="Inscrir un nouveau manager :" Margin="0,103,285,579" FontSize="18" HorizontalAlignment="Right"/>
+                    <Label  x:Name="labelInscrirNewManager" Content="Inscrir un nouveau manager :" Margin="0,103,285,579" FontSize="18" HorizontalAlignment="Right"/>
                     <Label x:Name="labelNomManager" Content="Nom :" Margin="0,178,604,504" FontSize="18" HorizontalAlignment="Right"/>
                     <Label x:Name="labelVilleManager" Content="Ville :" Margin="0,359,609,323" FontSize="18" HorizontalAlignment="Right"/>
                     <Label x:Name="labelAdresseManager" Content="Adresse :" Margin="0,301,603,381" FontSize="18" HorizontalAlignment="Right"/>
@@ -43,7 +43,7 @@
                     <Button x:Name="btnInscrir" Content="Inscrir" Margin="1129,637,285,34"  Click="btnInscrir_Click"/>
                     <TextBox x:Name="txtMailChangerPassword" TextWrapping="Wrap" Margin="394,497,920,191" />
                     <TextBox x:Name="txtAncienPasswordChangerPassword" TextWrapping="Wrap" Margin="395,545,919,137"/>
-                    <Label Content="Changer de mot de passe :" Margin="0,463,1001,219" FontSize="18" HorizontalAlignment="Right"/>
+                    <Label x:Name="labelChangerPassword" Content="Changer de mot de passe :" Margin="0,463,1001,219" FontSize="18" HorizontalAlignment="Right"/>
                     <Label x:Name="labelMailChanger" Content="Adresse mail :" Margin="0,504,1315,178" FontSize="18" HorizontalAlignment="Right"/>
                     <Label x:Name="labelAncienPasswordChanger" Content="Ancien Mot de passe :" Margin="0,563,1311,123" FontSize="18" Height="50" HorizontalAlignment="Right"/>
                     <Button x:Name="btnChangerPassword" Content="Changer" Margin="444,658,970,39" Click="btnChangerPassword_Click"/>
