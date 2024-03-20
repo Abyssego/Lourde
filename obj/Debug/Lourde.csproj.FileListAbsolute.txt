@@ -1,0 +1,416 @@
+E:\AT\Application\Lourde\bin\Debug\Lourde.exe.config
+E:\AT\Application\Lourde\bin\Debug\Lourde.exe
+E:\AT\Application\Lourde\bin\Debug\Lourde.pdb
+E:\AT\Application\Lourde\bin\Debug\ControlzEx.dll
+E:\AT\Application\Lourde\bin\Debug\MahApps.Metro.dll
+E:\AT\Application\Lourde\bin\Debug\MaterialDesignColors.dll
+E:\AT\Application\Lourde\bin\Debug\MaterialDesignThemes.Wpf.dll
+E:\AT\Application\Lourde\bin\Debug\Microsoft.Xaml.Behaviors.dll
+E:\AT\Application\Lourde\bin\Debug\ControlzEx.pdb
+E:\AT\Application\Lourde\bin\Debug\ControlzEx.xml
+E:\AT\Application\Lourde\bin\Debug\MahApps.Metro.pdb
+E:\AT\Application\Lourde\bin\Debug\MahApps.Metro.xml
+E:\AT\Application\Lourde\bin\Debug\MaterialDesignColors.pdb
+E:\AT\Application\Lourde\bin\Debug\MaterialDesignThemes.Wpf.pdb
+E:\AT\Application\Lourde\bin\Debug\MaterialDesignThemes.Wpf.xml
+E:\AT\Application\Lourde\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+E:\AT\Application\Lourde\bin\Debug\Microsoft.Xaml.Behaviors.xml
+E:\AT\Application\Lourde\obj\Debug\App.baml
+E:\AT\Application\Lourde\obj\Debug\MainWindow.g.cs
+E:\AT\Application\Lourde\obj\Debug\App.g.cs
+E:\AT\Application\Lourde\obj\Debug\Lourde_MarkupCompile.cache
+E:\AT\Application\Lourde\obj\Debug\Lourde_MarkupCompile.lref
+E:\AT\Application\Lourde\obj\Debug\MainWindow.baml
+E:\AT\Application\Lourde\obj\Debug\Lourde.g.resources
+E:\AT\Application\Lourde\obj\Debug\Lourde.Properties.Resources.resources
+E:\AT\Application\Lourde\obj\Debug\Lourde.csproj.GenerateResource.cache
+E:\AT\Application\Lourde\obj\Debug\Lourde.csproj.CoreCompileInputs.cache
+E:\AT\Application\Lourde\obj\Debug\Lourde.csproj.CopyComplete
+E:\AT\Application\Lourde\obj\Debug\Lourde.exe
+E:\AT\Application\Lourde\obj\Debug\Lourde.pdb
+E:\AT\Application\Lourde\bin\Debug\BouncyCastle.Crypto.dll
+E:\AT\Application\Lourde\bin\Debug\Google.Protobuf.dll
+E:\AT\Application\Lourde\bin\Debug\K4os.Compression.LZ4.dll
+E:\AT\Application\Lourde\bin\Debug\K4os.Compression.LZ4.Streams.dll
+E:\AT\Application\Lourde\bin\Debug\K4os.Hash.xxHash.dll
+E:\AT\Application\Lourde\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\AT\Application\Lourde\bin\Debug\MySql.Data.dll
+E:\AT\Application\Lourde\bin\Debug\System.Buffers.dll
+E:\AT\Application\Lourde\bin\Debug\System.Configuration.ConfigurationManager.dll
+E:\AT\Application\Lourde\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\AT\Application\Lourde\bin\Debug\System.IO.Pipelines.dll
+E:\AT\Application\Lourde\bin\Debug\System.Memory.dll
+E:\AT\Application\Lourde\bin\Debug\System.Numerics.Vectors.dll
+E:\AT\Application\Lourde\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\AT\Application\Lourde\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\AT\Application\Lourde\bin\Debug\ZstdSharp.dll
+E:\AT\Application\Lourde\bin\Debug\BouncyCastle.Crypto.xml
+E:\AT\Application\Lourde\bin\Debug\Google.Protobuf.pdb
+E:\AT\Application\Lourde\bin\Debug\Google.Protobuf.xml
+E:\AT\Application\Lourde\bin\Debug\K4os.Compression.LZ4.xml
+E:\AT\Application\Lourde\bin\Debug\K4os.Compression.LZ4.Streams.xml
+E:\AT\Application\Lourde\bin\Debug\K4os.Hash.xxHash.xml
+E:\AT\Application\Lourde\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\AT\Application\Lourde\bin\Debug\MySql.Data.xml
+E:\AT\Application\Lourde\bin\Debug\System.Buffers.xml
+E:\AT\Application\Lourde\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\AT\Application\Lourde\bin\Debug\System.IO.Pipelines.xml
+E:\AT\Application\Lourde\bin\Debug\System.Memory.xml
+E:\AT\Application\Lourde\bin\Debug\System.Numerics.Vectors.xml
+E:\AT\Application\Lourde\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\AT\Application\Lourde\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\AT\Application\Lourde\obj\Debug\Lourde.csprojAssemblyReference.cache
+D:\AT\Application\Lourde\obj\Debug\Lourde.csproj.AssemblyReference.cache
+D:\AT\Application\Lourde\obj\Debug\App.baml
+D:\AT\Application\Lourde\obj\Debug\MainWindow.g.cs
+D:\AT\Application\Lourde\obj\Debug\App.g.cs
+D:\AT\Application\Lourde\obj\Debug\Lourde_MarkupCompile.cache
+D:\AT\Application\Lourde\obj\Debug\Lourde_MarkupCompile.lref
+D:\AT\Application\Lourde\bin\Debug\Lourde.exe.config
+D:\AT\Application\Lourde\bin\Debug\Lourde.exe
+D:\AT\Application\Lourde\bin\Debug\Lourde.pdb
+D:\AT\Application\Lourde\bin\Debug\BouncyCastle.Crypto.dll
+D:\AT\Application\Lourde\bin\Debug\BouncyCastle.Cryptography.dll
+D:\AT\Application\Lourde\bin\Debug\ControlzEx.dll
+D:\AT\Application\Lourde\bin\Debug\Google.Protobuf.dll
+D:\AT\Application\Lourde\bin\Debug\K4os.Compression.LZ4.dll
+D:\AT\Application\Lourde\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\AT\Application\Lourde\bin\Debug\K4os.Hash.xxHash.dll
+D:\AT\Application\Lourde\bin\Debug\LiveCharts.dll
+D:\AT\Application\Lourde\bin\Debug\LiveCharts.Wpf.dll
+D:\AT\Application\Lourde\bin\Debug\MahApps.Metro.dll
+D:\AT\Application\Lourde\bin\Debug\MaterialDesignColors.dll
+D:\AT\Application\Lourde\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\AT\Application\Lourde\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\AT\Application\Lourde\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\AT\Application\Lourde\bin\Debug\MySql.Data.dll
+D:\AT\Application\Lourde\bin\Debug\OxyPlot.dll
+D:\AT\Application\Lourde\bin\Debug\OxyPlot.Wpf.dll
+D:\AT\Application\Lourde\bin\Debug\OxyPlot.Wpf.Shared.dll
+D:\AT\Application\Lourde\bin\Debug\System.Buffers.dll
+D:\AT\Application\Lourde\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\AT\Application\Lourde\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\AT\Application\Lourde\bin\Debug\System.IO.Pipelines.dll
+D:\AT\Application\Lourde\bin\Debug\System.Memory.dll
+D:\AT\Application\Lourde\bin\Debug\System.Numerics.Vectors.dll
+D:\AT\Application\Lourde\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\AT\Application\Lourde\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\AT\Application\Lourde\bin\Debug\ZstdSharp.dll
+D:\AT\Application\Lourde\bin\Debug\BouncyCastle.Crypto.xml
+D:\AT\Application\Lourde\bin\Debug\BouncyCastle.Cryptography.xml
+D:\AT\Application\Lourde\bin\Debug\ControlzEx.pdb
+D:\AT\Application\Lourde\bin\Debug\ControlzEx.xml
+D:\AT\Application\Lourde\bin\Debug\Google.Protobuf.pdb
+D:\AT\Application\Lourde\bin\Debug\Google.Protobuf.xml
+D:\AT\Application\Lourde\bin\Debug\K4os.Compression.LZ4.xml
+D:\AT\Application\Lourde\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\AT\Application\Lourde\bin\Debug\K4os.Hash.xxHash.xml
+D:\AT\Application\Lourde\bin\Debug\LiveCharts.pdb
+D:\AT\Application\Lourde\bin\Debug\LiveCharts.xml
+D:\AT\Application\Lourde\bin\Debug\LiveCharts.Wpf.pdb
+D:\AT\Application\Lourde\bin\Debug\LiveCharts.Wpf.xml
+D:\AT\Application\Lourde\bin\Debug\MahApps.Metro.pdb
+D:\AT\Application\Lourde\bin\Debug\MahApps.Metro.xml
+D:\AT\Application\Lourde\bin\Debug\MaterialDesignColors.pdb
+D:\AT\Application\Lourde\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\AT\Application\Lourde\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\AT\Application\Lourde\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\AT\Application\Lourde\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\AT\Application\Lourde\bin\Debug\Microsoft.Xaml.Behaviors.xml
+D:\AT\Application\Lourde\bin\Debug\MySql.Data.xml
+D:\AT\Application\Lourde\bin\Debug\OxyPlot.xml
+D:\AT\Application\Lourde\bin\Debug\OxyPlot.Wpf.xml
+D:\AT\Application\Lourde\bin\Debug\OxyPlot.Wpf.Shared.xml
+D:\AT\Application\Lourde\bin\Debug\System.Buffers.xml
+D:\AT\Application\Lourde\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\AT\Application\Lourde\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\AT\Application\Lourde\bin\Debug\System.IO.Pipelines.xml
+D:\AT\Application\Lourde\bin\Debug\System.Memory.xml
+D:\AT\Application\Lourde\bin\Debug\System.Numerics.Vectors.xml
+D:\AT\Application\Lourde\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\AT\Application\Lourde\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\AT\Application\Lourde\bin\Debug\de\MahApps.Metro.resources.dll
+D:\AT\Application\Lourde\obj\Debug\MainWindow.baml
+D:\AT\Application\Lourde\obj\Debug\Lourde.g.resources
+D:\AT\Application\Lourde\obj\Debug\Lourde.Properties.Resources.resources
+D:\AT\Application\Lourde\obj\Debug\Lourde.csproj.GenerateResource.cache
+D:\AT\Application\Lourde\obj\Debug\Lourde.csproj.CoreCompileInputs.cache
+D:\AT\Application\Lourde\obj\Debug\Lourde.csproj.CopyComplete
+D:\AT\Application\Lourde\obj\Debug\Lourde.exe
+D:\AT\Application\Lourde\obj\Debug\Lourde.pdb
+F:\AT\Application\Lourde\bin\Debug\Lourde.exe.config
+F:\AT\Application\Lourde\bin\Debug\Lourde.exe
+F:\AT\Application\Lourde\bin\Debug\Lourde.pdb
+F:\AT\Application\Lourde\bin\Debug\BouncyCastle.Crypto.dll
+F:\AT\Application\Lourde\bin\Debug\BouncyCastle.Cryptography.dll
+F:\AT\Application\Lourde\bin\Debug\ControlzEx.dll
+F:\AT\Application\Lourde\bin\Debug\Google.Protobuf.dll
+F:\AT\Application\Lourde\bin\Debug\K4os.Compression.LZ4.dll
+F:\AT\Application\Lourde\bin\Debug\K4os.Compression.LZ4.Streams.dll
+F:\AT\Application\Lourde\bin\Debug\K4os.Hash.xxHash.dll
+F:\AT\Application\Lourde\bin\Debug\LiveCharts.dll
+F:\AT\Application\Lourde\bin\Debug\LiveCharts.Wpf.dll
+F:\AT\Application\Lourde\bin\Debug\MahApps.Metro.dll
+F:\AT\Application\Lourde\bin\Debug\MaterialDesignColors.dll
+F:\AT\Application\Lourde\bin\Debug\MaterialDesignThemes.Wpf.dll
+F:\AT\Application\Lourde\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+F:\AT\Application\Lourde\bin\Debug\Microsoft.Xaml.Behaviors.dll
+F:\AT\Application\Lourde\bin\Debug\MySql.Data.dll
+F:\AT\Application\Lourde\bin\Debug\OxyPlot.dll
+F:\AT\Application\Lourde\bin\Debug\OxyPlot.Wpf.dll
+F:\AT\Application\Lourde\bin\Debug\OxyPlot.Wpf.Shared.dll
+F:\AT\Application\Lourde\bin\Debug\System.Buffers.dll
+F:\AT\Application\Lourde\bin\Debug\System.Configuration.ConfigurationManager.dll
+F:\AT\Application\Lourde\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+F:\AT\Application\Lourde\bin\Debug\System.IO.Pipelines.dll
+F:\AT\Application\Lourde\bin\Debug\System.Memory.dll
+F:\AT\Application\Lourde\bin\Debug\System.Numerics.Vectors.dll
+F:\AT\Application\Lourde\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\AT\Application\Lourde\bin\Debug\System.Threading.Tasks.Extensions.dll
+F:\AT\Application\Lourde\bin\Debug\ZstdSharp.dll
+F:\AT\Application\Lourde\bin\Debug\BouncyCastle.Crypto.xml
+F:\AT\Application\Lourde\bin\Debug\BouncyCastle.Cryptography.xml
+F:\AT\Application\Lourde\bin\Debug\ControlzEx.pdb
+F:\AT\Application\Lourde\bin\Debug\ControlzEx.xml
+F:\AT\Application\Lourde\bin\Debug\Google.Protobuf.pdb
+F:\AT\Application\Lourde\bin\Debug\Google.Protobuf.xml
+F:\AT\Application\Lourde\bin\Debug\K4os.Compression.LZ4.xml
+F:\AT\Application\Lourde\bin\Debug\K4os.Compression.LZ4.Streams.xml
+F:\AT\Application\Lourde\bin\Debug\K4os.Hash.xxHash.xml
+F:\AT\Application\Lourde\bin\Debug\LiveCharts.pdb
+F:\AT\Application\Lourde\bin\Debug\LiveCharts.xml
+F:\AT\Application\Lourde\bin\Debug\LiveCharts.Wpf.pdb
+F:\AT\Application\Lourde\bin\Debug\LiveCharts.Wpf.xml
+F:\AT\Application\Lourde\bin\Debug\MahApps.Metro.pdb
+F:\AT\Application\Lourde\bin\Debug\MahApps.Metro.xml
+F:\AT\Application\Lourde\bin\Debug\MaterialDesignColors.pdb
+F:\AT\Application\Lourde\bin\Debug\MaterialDesignThemes.Wpf.pdb
+F:\AT\Application\Lourde\bin\Debug\MaterialDesignThemes.Wpf.xml
+F:\AT\Application\Lourde\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+F:\AT\Application\Lourde\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+F:\AT\Application\Lourde\bin\Debug\Microsoft.Xaml.Behaviors.xml
+F:\AT\Application\Lourde\bin\Debug\MySql.Data.xml
+F:\AT\Application\Lourde\bin\Debug\OxyPlot.xml
+F:\AT\Application\Lourde\bin\Debug\OxyPlot.Wpf.xml
+F:\AT\Application\Lourde\bin\Debug\OxyPlot.Wpf.Shared.xml
+F:\AT\Application\Lourde\bin\Debug\System.Buffers.xml
+F:\AT\Application\Lourde\bin\Debug\System.Configuration.ConfigurationManager.xml
+F:\AT\Application\Lourde\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+F:\AT\Application\Lourde\bin\Debug\System.IO.Pipelines.xml
+F:\AT\Application\Lourde\bin\Debug\System.Memory.xml
+F:\AT\Application\Lourde\bin\Debug\System.Numerics.Vectors.xml
+F:\AT\Application\Lourde\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\AT\Application\Lourde\bin\Debug\System.Threading.Tasks.Extensions.xml
+F:\AT\Application\Lourde\bin\Debug\de\MahApps.Metro.resources.dll
+F:\AT\Application\Lourde\obj\Debug\Lourde.csproj.AssemblyReference.cache
+F:\AT\Application\Lourde\obj\Debug\App.baml
+F:\AT\Application\Lourde\obj\Debug\MainWindow.g.cs
+F:\AT\Application\Lourde\obj\Debug\App.g.cs
+F:\AT\Application\Lourde\obj\Debug\Lourde_MarkupCompile.cache
+F:\AT\Application\Lourde\obj\Debug\Lourde_MarkupCompile.lref
+F:\AT\Application\Lourde\obj\Debug\MainWindow.baml
+F:\AT\Application\Lourde\obj\Debug\Lourde.g.resources
+F:\AT\Application\Lourde\obj\Debug\Lourde.Properties.Resources.resources
+F:\AT\Application\Lourde\obj\Debug\Lourde.csproj.GenerateResource.cache
+F:\AT\Application\Lourde\obj\Debug\Lourde.csproj.CoreCompileInputs.cache
+F:\AT\Application\Lourde\obj\Debug\Lourde.csproj.CopyComplete
+F:\AT\Application\Lourde\obj\Debug\Lourde.exe
+F:\AT\Application\Lourde\obj\Debug\Lourde.pdb
+F:\AT\Application\Lourde\bin\Debug\itext.barcodes.dll
+F:\AT\Application\Lourde\bin\Debug\itext.bouncy-castle-adapter.dll
+F:\AT\Application\Lourde\bin\Debug\itext.bouncy-castle-connector.dll
+F:\AT\Application\Lourde\bin\Debug\itext.commons.dll
+F:\AT\Application\Lourde\bin\Debug\itext.forms.dll
+F:\AT\Application\Lourde\bin\Debug\itext.io.dll
+F:\AT\Application\Lourde\bin\Debug\itext.kernel.dll
+F:\AT\Application\Lourde\bin\Debug\itext.layout.dll
+F:\AT\Application\Lourde\bin\Debug\itext.pdfa.dll
+F:\AT\Application\Lourde\bin\Debug\itext.sign.dll
+F:\AT\Application\Lourde\bin\Debug\itext.styledxmlparser.dll
+F:\AT\Application\Lourde\bin\Debug\itext.svg.dll
+F:\AT\Application\Lourde\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\AT\Application\Lourde\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+F:\AT\Application\Lourde\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+F:\AT\Application\Lourde\bin\Debug\Microsoft.Extensions.Logging.dll
+F:\AT\Application\Lourde\bin\Debug\Microsoft.Extensions.Options.dll
+F:\AT\Application\Lourde\bin\Debug\Microsoft.Extensions.Primitives.dll
+F:\AT\Application\Lourde\bin\Debug\Newtonsoft.Json.dll
+F:\AT\Application\Lourde\bin\Debug\System.ValueTuple.dll
+F:\AT\Application\Lourde\bin\Debug\itext.barcodes.xml
+F:\AT\Application\Lourde\bin\Debug\itext.bouncy-castle-adapter.xml
+F:\AT\Application\Lourde\bin\Debug\itext.bouncy-castle-connector.xml
+F:\AT\Application\Lourde\bin\Debug\itext.commons.xml
+F:\AT\Application\Lourde\bin\Debug\itext.forms.xml
+F:\AT\Application\Lourde\bin\Debug\itext.io.xml
+F:\AT\Application\Lourde\bin\Debug\itext.kernel.xml
+F:\AT\Application\Lourde\bin\Debug\itext.layout.xml
+F:\AT\Application\Lourde\bin\Debug\itext.pdfa.xml
+F:\AT\Application\Lourde\bin\Debug\itext.sign.xml
+F:\AT\Application\Lourde\bin\Debug\itext.styledxmlparser.xml
+F:\AT\Application\Lourde\bin\Debug\itext.svg.xml
+F:\AT\Application\Lourde\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+F:\AT\Application\Lourde\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+F:\AT\Application\Lourde\bin\Debug\Microsoft.Extensions.Logging.xml
+F:\AT\Application\Lourde\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+F:\AT\Application\Lourde\bin\Debug\Microsoft.Extensions.Options.xml
+F:\AT\Application\Lourde\bin\Debug\Microsoft.Extensions.Primitives.xml
+F:\AT\Application\Lourde\bin\Debug\Newtonsoft.Json.xml
+F:\AT\Application\Lourde\bin\Debug\System.ValueTuple.xml
+D:\AT\Application\Lourde\bin\Debug\itext.barcodes.dll
+D:\AT\Application\Lourde\bin\Debug\itext.bouncy-castle-adapter.dll
+D:\AT\Application\Lourde\bin\Debug\itext.bouncy-castle-connector.dll
+D:\AT\Application\Lourde\bin\Debug\itext.commons.dll
+D:\AT\Application\Lourde\bin\Debug\itext.forms.dll
+D:\AT\Application\Lourde\bin\Debug\itext.io.dll
+D:\AT\Application\Lourde\bin\Debug\itext.kernel.dll
+D:\AT\Application\Lourde\bin\Debug\itext.layout.dll
+D:\AT\Application\Lourde\bin\Debug\itext.pdfa.dll
+D:\AT\Application\Lourde\bin\Debug\itext.sign.dll
+D:\AT\Application\Lourde\bin\Debug\itext.styledxmlparser.dll
+D:\AT\Application\Lourde\bin\Debug\itext.svg.dll
+D:\AT\Application\Lourde\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\AT\Application\Lourde\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\AT\Application\Lourde\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\AT\Application\Lourde\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\AT\Application\Lourde\bin\Debug\Microsoft.Extensions.Options.dll
+D:\AT\Application\Lourde\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\AT\Application\Lourde\bin\Debug\Newtonsoft.Json.dll
+D:\AT\Application\Lourde\bin\Debug\System.ValueTuple.dll
+D:\AT\Application\Lourde\bin\Debug\itext.barcodes.xml
+D:\AT\Application\Lourde\bin\Debug\itext.bouncy-castle-adapter.xml
+D:\AT\Application\Lourde\bin\Debug\itext.bouncy-castle-connector.xml
+D:\AT\Application\Lourde\bin\Debug\itext.commons.xml
+D:\AT\Application\Lourde\bin\Debug\itext.forms.xml
+D:\AT\Application\Lourde\bin\Debug\itext.io.xml
+D:\AT\Application\Lourde\bin\Debug\itext.kernel.xml
+D:\AT\Application\Lourde\bin\Debug\itext.layout.xml
+D:\AT\Application\Lourde\bin\Debug\itext.pdfa.xml
+D:\AT\Application\Lourde\bin\Debug\itext.sign.xml
+D:\AT\Application\Lourde\bin\Debug\itext.styledxmlparser.xml
+D:\AT\Application\Lourde\bin\Debug\itext.svg.xml
+D:\AT\Application\Lourde\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\AT\Application\Lourde\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\AT\Application\Lourde\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\AT\Application\Lourde\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\AT\Application\Lourde\bin\Debug\Microsoft.Extensions.Options.xml
+D:\AT\Application\Lourde\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\AT\Application\Lourde\bin\Debug\Newtonsoft.Json.xml
+D:\AT\Application\Lourde\bin\Debug\System.ValueTuple.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\Lourde.exe.config
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\Lourde.exe
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\Lourde.pdb
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\BouncyCastle.Crypto.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\BouncyCastle.Cryptography.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\ControlzEx.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\Google.Protobuf.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\itext.barcodes.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\itext.bouncy-castle-adapter.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\itext.bouncy-castle-connector.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\itext.commons.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\itext.forms.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\itext.io.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\itext.kernel.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\itext.layout.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\itext.pdfa.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\itext.sign.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\itext.styledxmlparser.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\itext.svg.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\K4os.Compression.LZ4.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\K4os.Hash.xxHash.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\LiveCharts.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\LiveCharts.Wpf.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\MahApps.Metro.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\MaterialDesignColors.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\MySql.Data.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\Newtonsoft.Json.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\OxyPlot.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\OxyPlot.Wpf.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\OxyPlot.Wpf.Shared.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\System.Buffers.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\System.IO.Pipelines.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\System.Memory.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\System.Numerics.Vectors.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\System.ValueTuple.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\ZstdSharp.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\BouncyCastle.Crypto.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\BouncyCastle.Cryptography.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\ControlzEx.pdb
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\ControlzEx.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\Google.Protobuf.pdb
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\Google.Protobuf.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\itext.barcodes.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\itext.bouncy-castle-adapter.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\itext.bouncy-castle-connector.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\itext.commons.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\itext.forms.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\itext.io.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\itext.kernel.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\itext.layout.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\itext.pdfa.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\itext.sign.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\itext.styledxmlparser.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\itext.svg.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\K4os.Compression.LZ4.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\K4os.Hash.xxHash.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\LiveCharts.pdb
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\LiveCharts.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\LiveCharts.Wpf.pdb
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\LiveCharts.Wpf.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\MahApps.Metro.pdb
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\MahApps.Metro.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\MaterialDesignColors.pdb
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\Microsoft.Extensions.Options.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\Microsoft.Xaml.Behaviors.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\MySql.Data.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\Newtonsoft.Json.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\OxyPlot.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\OxyPlot.Wpf.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\OxyPlot.Wpf.Shared.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\System.Buffers.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\System.IO.Pipelines.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\System.Memory.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\System.Numerics.Vectors.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\System.ValueTuple.xml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\bin\Debug\de\MahApps.Metro.resources.dll
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\obj\Debug\Lourde.csproj.AssemblyReference.cache
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\obj\Debug\App.baml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\obj\Debug\MainWindow.g.cs
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\obj\Debug\App.g.cs
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\obj\Debug\Lourde_MarkupCompile.cache
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\obj\Debug\Lourde_MarkupCompile.lref
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\obj\Debug\MainWindow.baml
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\obj\Debug\Lourde.g.resources
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\obj\Debug\Lourde.Properties.Resources.resources
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\obj\Debug\Lourde.csproj.GenerateResource.cache
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\obj\Debug\Lourde.csproj.CoreCompileInputs.cache
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\obj\Debug\Lourde.csproj.CopyComplete
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\obj\Debug\Lourde.exe
+D:\Mes Documents\BTS SIO 2\AT\Application\Lourde\obj\Debug\Lourde.pdb

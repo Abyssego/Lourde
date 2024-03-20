@@ -1,0 +1,270 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:oxy="http://oxyplot.org/wpf"
+        xmlns:local="clr-namespace:Lourde"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls" x:Class="Lourde.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="1700"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{materialDesign:MaterialDesignFont}">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Connexion">
+                <Grid Background="#48484e">
+                    <Label Content="Adresse mail :" Margin="0,189,1311,493" FontSize="18" HorizontalAlignment="Right"/>
+                    <TextBox x:Name="txtPassword" TextWrapping="Wrap" Margin="394,259,920,430" />
+                    <TextBox x:Name="txtMail" TextWrapping="Wrap" Margin="395,178,919,504"/>
+                    <Button x:Name="btnConnexion" Content="Connexion" Margin="445,342,969,328" Click="btnConnexion_Click"/>
+                    <Label Content="Mot de passe :" Margin="0,268,1311,418" FontSize="18" Height="50" HorizontalAlignment="Right"/>
+                    <Label Content="Se connecter :" Margin="0,124,1052,558" FontSize="18" HorizontalAlignment="Right"/>
+                    <Label Content="Inscrir un nouveau manager :" Margin="0,103,285,579" FontSize="18" HorizontalAlignment="Right"/>
+                    <Label x:Name="labelNomManager" Content="Nom :" Margin="0,178,604,504" FontSize="18" HorizontalAlignment="Right"/>
+                    <Label x:Name="labelVilleManager" Content="Ville :" Margin="0,359,609,323" FontSize="18" HorizontalAlignment="Right"/>
+                    <Label x:Name="labelAdresseManager" Content="Adresse :" Margin="0,301,603,381" FontSize="18" HorizontalAlignment="Right"/>
+                    <Label x:Name="labelPrenomManager" Content="Prénom :" Margin="0,247,603,435" FontSize="18" HorizontalAlignment="Right"/>
+                    <Label x:Name="labelMailManager" Content="Adresse mail :" Margin="0,473,603,209" FontSize="18" HorizontalAlignment="Right"/>
+                    <Label x:Name="labelCpManager" Content="Code Postal :" Margin="0,413,603,268" FontSize="18" HorizontalAlignment="Right"/>
+                    <Label x:Name="labelPasswordManager" Content="Mot de passe :" Margin="0,586,603,96" FontSize="18" HorizontalAlignment="Right"/>
+                    <Label x:Name="labelTelManager" Content="Téléphone :" Margin="0,527,603,155" FontSize="18" HorizontalAlignment="Right"/>
+                    <TextBox x:Name="txtNomManager" TextWrapping="Wrap" Margin="1102,157,212,525"/>
+                    <TextBox x:Name="txtPrenomManager" TextWrapping="Wrap" Margin="1102,219,212,462"/>
+                    <TextBox x:Name="txtAdresseManager" TextWrapping="Wrap" Margin="1102,283,212,399"/>
+                    <TextBox x:Name="txtVilleManager" TextWrapping="Wrap" Margin="1102,342,212,339"/>
+                    <TextBox x:Name="txtCpManager" TextWrapping="Wrap" Margin="1102,397,212,284"/>
+                    <TextBox x:Name="txtMailManager" TextWrapping="Wrap" Margin="1102,457,212,224"/>
+                    <TextBox x:Name="txtTelManager" TextWrapping="Wrap" Margin="1102,517,212,164"/>
+                    <TextBox x:Name="txtPasswordManager" TextWrapping="Wrap" Margin="1102,577,212,104"/>
+                    <Label Content="Bienvenue sur l'application lourde  :" Margin="0,10,0,672" FontSize="24" HorizontalAlignment="Center"/>
+                    <Button x:Name="btnInscrir" Content="Inscrir" Margin="1129,637,285,34"  Click="btnInscrir_Click"/>
+                    <TextBox x:Name="txtMailChangerPassword" TextWrapping="Wrap" Margin="394,497,920,191" />
+                    <TextBox x:Name="txtAncienPasswordChangerPassword" TextWrapping="Wrap" Margin="395,545,919,137"/>
+                    <Label Content="Changer de mot de passe :" Margin="0,463,1001,219" FontSize="18" HorizontalAlignment="Right"/>
+                    <Label x:Name="labelMailChanger" Content="Adresse mail :" Margin="0,504,1315,178" FontSize="18" HorizontalAlignment="Right"/>
+                    <Label x:Name="labelAncienPasswordChanger" Content="Ancien Mot de passe :" Margin="0,563,1311,123" FontSize="18" Height="50" HorizontalAlignment="Right"/>
+                    <Button x:Name="btnChangerPassword" Content="Changer" Margin="444,658,970,39" Click="btnChangerPassword_Click"/>
+                    <TextBox x:Name="txtNouveauPasswordChangerPassword" TextWrapping="Wrap" Margin="395,599,919,83"/>
+                    <Label x:Name="labelNouveauPasswordChanger" Content="Nouveau Mot de Passe :" Margin="0,613,1310,73" FontSize="18" Height="50" HorizontalAlignment="Right"/>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="tabProduit" Header="Produit">
+                <Grid Background="#48484e">
+                    <DataGrid x:Name="dtgProduit" ItemsSource="{Binding}" IsReadOnly="True" Margin="10,10,808,406" SelectionChanged="dtgProduit_SelectionChanged" IsSynchronizedWithCurrentItem="True"/>
+                    <DataGrid x:Name="dtgStock" ItemsSource="{Binding}" IsReadOnly="True" Margin="1353,10,10,344" SelectionChanged="dtgStock_SelectionChanged" IsSynchronizedWithCurrentItem="True"/>
+                    <DataGrid x:Name="dtgProduitType" ItemsSource="{Binding}" IsReadOnly="True" Margin="1350,462,10,10" SelectionChanged="dtgProduitType_SelectionChanged" IsSynchronizedWithCurrentItem="True"/>
+                    <TextBox x:Name="txtNumStock" TextWrapping="Wrap" Margin="1149,0,351,687" FontSize="16" Width="192"/>
+                    <TextBox x:Name="txtQteStock" TextWrapping="Wrap" Margin="1149,64,359,621" FontSize="16"/>
+                    <TextBox x:Name="txtProduitType" TextWrapping="Wrap" Margin="1145,528,359,158" FontSize="16"/>
+                    <TextBox x:Name="txtNumProduit" TextWrapping="Wrap" Margin="10,377,1476,308" FontSize="16"/>
+                    <TextBox x:Name="txtNomProduit" TextWrapping="Wrap" Margin="287,379,1194,308" FontSize="16"/>
+                    <TextBox x:Name="txtPrixProduit" TextWrapping="Wrap" Margin="578,379,890,308" FontSize="16"/>
+                    <Button x:Name="btnStockAjouter" Content="Ajouter Stock" Margin="1141,229,359,454" Click="btnStockAjouter_Click" Height="Auto"/>
+                    <Button x:Name="btnStockModifier" Content="Modifier Stock" Margin="1141,271,359,411" Click="btnStockModifier_Click" Height="Auto"/>
+                    <Button x:Name="btnStockSupprimer" Content="Supprimer Stock" Margin="1141,321,359,366" Click="btnStockSupprimer_Click" Height="Auto"/>
+                    <Button x:Name="btnProduitTypeAjouter" Content="Ajouter Type Produit" Margin="1145,578,355,101" Click="btnProduitTypeAjouter_Click" Height="Auto"/>
+                    <Button x:Name="btnProduitTypeModifier" Content="Modifier Type Produit" Margin="1145,623,355,56" Click="btnProduitTypeModifier_Click" Height="Auto"/>
+                    <Button x:Name="btnProduitTypeSupprimer" Content="Supprimer Type Produit" Margin="1143,664,357,10" Click="btnProduitTypeSupprimer_Click" Height="Auto"/>
+                    <TextBox x:Name="txtLongueDescriptionProduit" TextWrapping="Wrap" Margin="578,503,890,96" FontSize="16"/>
+                    <TextBox x:Name="txtPetiteDescriptionProduit" TextWrapping="Wrap" Margin="287,504,1194,96" FontSize="16"/>
+                    <ComboBox x:Name="cboProduitStock" ItemsSource="{Binding}" Margin="1156,124,352,0" VerticalAlignment="Top" Height="49" IsSynchronizedWithCurrentItem="True" IsEditable="True" SelectionChanged="cboProduitStock_SelectionChanged" FontSize="16"/>
+                    <ComboBox x:Name="cboProduitTypeProduit" ItemsSource="{Binding}" Margin="10,503,1476,0" VerticalAlignment="Top" Height="51" IsSynchronizedWithCurrentItem="True" IsEditable="True" SelectionChanged="cboProduitTypeProduit_SelectionChanged" FontSize="16"/>
+                    <Button x:Name="btnProduitAjouter" Content="Ajouter Produit" Margin="47,652,1453,29" Height="Auto" Click="btnProduitAjouter_Click"/>
+                    <Button x:Name="btnProduitModifier" Content="Modifier Produit" Margin="330,652,1182,29" Width="180" Height="Auto" Click="btnProduitModifier_Click"/>
+                    <Button x:Name="btnProduitSupprimer" Content="Supprimer Produit" Margin="622,652,890,29" Width="180" Height="Auto" Click="btnProduitSupprimer_Click"/>
+                    <Label Content="Nom Produit :" Margin="287,342,1261,342" FontSize="16"/>
+                    <Label Content="Numéom Produit :" Margin="10,342,1538,344" FontSize="16"/>
+                    <Label Content="Prix Produit :" Margin="578,342,970,344" FontSize="16"/>
+                    <Label Content="Type Produit" Margin="10,462,1538,222" FontSize="16"/>
+                    <Label Content="Longue Description :" Margin="578,462,970,218" FontSize="16"/>
+                    <Label Content="Petite Description :" Margin="287,462,1261,222" FontSize="16"/>
+                    <Label Content="Numéro Stock :" Margin="1027,10,548,675" FontSize="16"/>
+                    <Label Content="Quantite :" Margin="1037,69,562,621" FontSize="16"/>
+                    <Label Content="Num Produit :" Margin="1037,138,541,548" FontSize="16"/>
+                    <Label Content="Type Produit :" Margin="1149,484,426,203" FontSize="16"/>
+                    <TextBox x:Name="txtProduitStock" TextWrapping="Wrap" Margin="1153,178,355,507" FontSize="16"/>
+                    <TextBox x:Name="txtProduitTypeProduit" TextWrapping="Wrap" Margin="10,584,1476,101" FontSize="16"/>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="tabRendezVous" Header="Rendez-Vous">
+                <Grid Background="#48484e">
+                    <DataGrid x:Name="dtgRendezVous" ItemsSource="{Binding}" IsReadOnly="True" Margin="10,23,779,114" SelectionChanged="dtgRendezVous_SelectionChanged" IsSynchronizedWithCurrentItem="True"/>
+                    <TextBox x:Name="txtNomRendezVous" TextWrapping="Wrap" Margin="991,76,519,611" FontSize="16"/>
+                    <TextBox x:Name="txtDateRendezVous" TextWrapping="Wrap" Margin="991,412,519,275" FontSize="16"/>
+                    <TextBox x:Name="txtHeureDebutRendezVous" TextWrapping="Wrap" Margin="1222,412,288,275" FontSize="16"/>
+                    <TextBox x:Name="txtHeureFinRendezVous" TextWrapping="Wrap" Margin="1476,412,34,275" FontSize="16"/>
+                    <TextBox x:Name="txtTelRendezVous" TextWrapping="Wrap" Margin="991,186,519,501" FontSize="16"/>
+                    <TextBox x:Name="txtVilleRendezVous" TextWrapping="Wrap" Margin="991,297,519,390" FontSize="16"/>
+                    <TextBox x:Name="txtCpRendezVous" TextWrapping="Wrap" Margin="1222,297,288,390" FontSize="16"/>
+                    <TextBox x:Name="txtAdresseRendezVous" TextWrapping="Wrap" Margin="1476,297,34,389" FontSize="16"/>
+                    <TextBox x:Name="txtNumSirenRendezVous" TextWrapping="Wrap" Margin="1222,186,288,501" FontSize="16"/>
+                    <TextBox x:Name="txtNomSocieteRendezVous" TextWrapping="Wrap" Margin="1476,186,34,501" FontSize="16"/>
+                    <TextBox x:Name="txtPrenomRendezVous" TextWrapping="Wrap" Margin="1222,76,288,611" FontSize="16"/>
+                    <TextBox x:Name="txtMailRendezVous" TextWrapping="Wrap" Margin="1476,76,34,611" FontSize="16"/>
+                    <ComboBox x:Name="cboCommerciauxRendezVous" ItemsSource="{Binding}" Margin="1460,662,18,0" VerticalAlignment="Top" Height="45" FontSize="16" IsSynchronizedWithCurrentItem="True" IsEditable="True" SelectionChanged="cboCommerciauxRendezVous_SelectionChanged"/>
+                    <CheckBox x:Name="checkConfirmation" Content="" HorizontalAlignment="Left" Margin="1652,478,-19,0" VerticalAlignment="Top" Height="49" Width="59" FontSize="14"/>
+                    <TextBox x:Name="txtDescriptionRendezVous" TextWrapping="Wrap" Margin="1222,522,286,82" FontSize="16"/>
+                    <TextBox x:Name="txtNumRendezVous" TextWrapping="Wrap" Margin="1510,0,0,687" FontSize="16"/>
+                    <Label Content="Numéro Rendez-Vous :" Margin="0,0,154,699" FontSize="16" HorizontalAlignment="Right" Width="172" Height="33" VerticalAlignment="Bottom"/>
+                    <Label Content="Prenom RendezVous :" Margin="0,36,361,650" FontSize="16" HorizontalAlignment="Right"/>
+                    <Label Content="Nom RendezVous :" Margin="0,36,592,645" FontSize="16" HorizontalAlignment="Right"/>
+                    <Label Content="Mail RendezVous :" Margin="0,39,147,645" FontSize="16" HorizontalAlignment="Right"/>
+                    <Label Content="Tel RendezVous :" Margin="955,143,592,540" FontSize="16"/>
+                    <Label Content="Num Siren RendezVous :" Margin="1164,143,341,540" FontSize="16"/>
+                    <Label Content="Nom Entreprise RendezVous :" Margin="1394,143,78,540" FontSize="16"/>
+                    <Label Content="Ville RendezVous :" Margin="955,255,592,429" FontSize="16"/>
+                    <Label Content="Cp RendezVous :" Margin="1164,255,383,429" FontSize="16"/>
+                    <Label Content="Adresse  RendezVous :" Margin="1394,255,129,429" FontSize="16"/>
+                    <Label Content="Date Rendez-Vous :" Margin="955,370,592,314" FontSize="16"/>
+                    <Label Content="Heure Début RendezVous :" Margin="1175,370,306,314" FontSize="16"/>
+                    <Label Content="Heure Fin RendezVous :" Margin="1399,370,82,314" FontSize="16"/>
+                    <Label Content="But RendezVous :" Margin="955,478,592,205" FontSize="16"/>
+                    <Label Content="Description RendezVous :" Margin="1175,478,306,205" FontSize="16"/>
+                    <Label Content="Confirmation RendezVous :" Margin="1436,478,45,197" FontSize="16"/>
+                    <Label Content="Num Commerciaux RendezVous :" Margin="1426,552,10,134" FontSize="16"/>
+                    <Button x:Name="btnRendezVousAjouter" Content="Ajouter" Margin="10,629,1442,41" Click="btnRendezVousAjouter_Click" Height="Auto"/>
+                    <Button x:Name="btnPRendezVousModifier" Content="Modifier" Margin="370,629,1100,41" Click="btnRendezVousModifier_Click" Height="Auto"/>
+                    <Button x:Name="btnRendezVousSupprimer" Content="Supprimer" Margin="689,629,779,41" Click="btnRendezVousSupprimer_Click" Height="Auto"/>
+                    <TextBox x:Name="txtButRendezVous" TextWrapping="Wrap" Margin="991,522,517,82" FontSize="16"/>
+                    <TextBox x:Name="txtCommerciauxRendezVous" TextWrapping="Wrap" Margin="1460,588,18,82" FontSize="16"/>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="tabEntreprise" Header="Entreprise">
+                <Grid Background="#48484e">
+                    <DataGrid x:Name="dtgEntreprise" ItemsSource="{Binding}" IsReadOnly="True" Margin="10,10,702,10" SelectionChanged="dtgEntreprise_SelectionChanged" IsSynchronizedWithCurrentItem="True"/>
+                    <TextBox x:Name="txtNumSirenEntreprise" TextWrapping="Wrap" Margin="1031,65,477,622" FontSize="16"/>
+                    <TextBox x:Name="txtNomEntreprise" TextWrapping="Wrap" Margin="1256,65,252,622" FontSize="16"/>
+                    <TextBox x:Name="txtVilleSiegeEntreprise" TextWrapping="Wrap" Margin="1031,174,477,513" FontSize="16"/>
+                    <TextBox x:Name="txtCpSiegeEntreprise" TextWrapping="Wrap" Margin="1256,174,252,513" FontSize="16"/>
+                    <TextBox x:Name="txtAdresseSiegeEntreprise" TextWrapping="Wrap" Margin="1466,174,42,513" FontSize="16"/>
+                    <TextBox x:Name="txtVilleLocauxEntreprise" TextWrapping="Wrap" Margin="1031,259,477,428" FontSize="16"/>
+                    <TextBox x:Name="txtCpLocauxEntreprise" TextWrapping="Wrap" Margin="1256,258,252,428" FontSize="16"/>
+                    <TextBox x:Name="txtAdresseLocauxEntreprise" TextWrapping="Wrap" Margin="1472,259,36,428" FontSize="16"/>
+                    <Button x:Name="btnEntrepriseModifier" Content="Modifier Entreprise" Click="btnEntrepriseModifier_Click" Margin="1235,378,231,295"/>
+                    <Button x:Name="btnEntrepriseAjouter" Content="Ajouter Entreprise" Click="btnEntrepriseAjouter_Click" Margin="1235,329,231,352"/>
+                    <Button x:Name="btnEntrepriseSupprimer" Content="Supprimer Entreprise" Click="btnEntrepriseSupprimer_Click" Margin="1235,431,231,245"/>
+                    <Label Content="Num Siren Entreprise :" Margin="0,10,491,671" FontSize="16" HorizontalAlignment="Right" Width="178"/>
+                    <Label Content="Nom Entreprise :" Margin="0,10,318,671" FontSize="16" HorizontalAlignment="Right"/>
+                    <Label Content="Cp Siege Entreprise :" Margin="0,119,290,562" FontSize="16" HorizontalAlignment="Right"/>
+                    <Label Content="Ville Siege Entreprise :" Margin="0,119,504,562" FontSize="16" HorizontalAlignment="Right"/>
+                    <Label Content="Adresse Siege Entreprise :" Margin="0,119,32,569" FontSize="16" HorizontalAlignment="Right" Width="202"/>
+                    <Label Content="Ville Locaux Entreprise :" Margin="0,228,492,461" FontSize="16" HorizontalAlignment="Right"/>
+                    <Label Content="Cp Locaux Entreprise :" Margin="0,227,284,461" FontSize="16" HorizontalAlignment="Right"/>
+                    <Label Content="Adresse Locaux Entreprise :" Margin="0,223,29,466" FontSize="16" HorizontalAlignment="Right"/>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="tabFacture" Header="Facture">
+                <Grid Background="#48484e">
+                    <DataGrid x:Name="dtgFacture" ItemsSource="{Binding}" IsReadOnly="True" Margin="936,10,10,368"  SelectionChanged="dtgFacture_SelectionChanged" IsSynchronizedWithCurrentItem="True"/>
+                    <TextBox x:Name="txtQteFacture" TextWrapping="Wrap" Margin="1498,424,10,263" FontSize="16"/>
+                    <TextBox x:Name="txtDateFacture" TextWrapping="Wrap" Margin="1280,424,228,263" FontSize="16"/>
+                    <Button x:Name="btnFactureAjouter" Content="Ajouter Facture" Width="180" Margin="967,631,553,26" Click="btnFactureAjouter_Click"/>
+                    <Button x:Name="btnFactureModifier" Content="Modifier Facture" Width="180" Margin="1223,637,297,33" Click="btnFactureModifier_Click"/>
+                    <Button x:Name="btnFactureSupprimer" Content="Supprimer Facture" Width="180" Margin="1475,627,45,26" Click="btnFactureSupprimer_Click"/>
+                    <ComboBox x:Name="cboClientFacture" ItemsSource="{Binding}" Margin="1180,566,328,0" VerticalAlignment="Top" Height="49" IsSynchronizedWithCurrentItem="True" IsEditable="True" SelectionChanged="cboClientFacture_SelectionChanged" FontSize="16"/>
+                    <ComboBox x:Name="cboProduitFacture" ItemsSource="{Binding}" Margin="961,566,547,0" VerticalAlignment="Top" Height="49" IsSynchronizedWithCurrentItem="True" IsEditable="True" SelectionChanged="cboProduitFacture_SelectionChanged" FontSize="16"/>
+                    <TextBox x:Name="txtNumFacture" TextWrapping="Wrap" Margin="961,421,547,266" FontSize="16"/>
+                    <Label Content="Num Facture :" Margin="0,373,632,312" FontSize="16" HorizontalAlignment="Right"/>
+                    <Label Content="Qte Facture :" Margin="0,373,104,312" FontSize="16" HorizontalAlignment="Right"/>
+                    <Label Content="Date Facture :" Margin="0,373,314,312" FontSize="16" HorizontalAlignment="Right"/>
+                    <Label Content="Nom Produit :" Margin="0,470,634,210" FontSize="16" HorizontalAlignment="Right"/>
+                    <Label Content="Nom Client :" Margin="0,470,425,209" FontSize="16" HorizontalAlignment="Right"/>
+                    <TextBox x:Name="txtClientFacture" TextWrapping="Wrap" Margin="1184,512,324,175" FontSize="16"/>
+                    <TextBox x:Name="txtProduitFacture" TextWrapping="Wrap" Margin="960,512,548,175" FontSize="16"/>
+                    <Button x:Name="btnFactureExporter" Content="Exporter Facture" Width="180" Margin="1475,555,45,114" Click="btnFactureExporter_Click"/>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="tabClient" Header="Clients" FontSize="16">
+                <Grid Background="#48484e">
+                    <DataGrid x:Name="dtgClient" ItemsSource="{Binding}" IsReadOnly="True" Margin="10,10,694,10" SelectionChanged="dtgClient_SelectionChanged" IsSynchronizedWithCurrentItem="True"/>
+                    <TextBox x:Name="txtNumClient" TextWrapping="Wrap" Margin="1069,83,441,604" FontSize="16"/>
+                    <TextBox x:Name="txtNomClient" TextWrapping="Wrap" Margin="1327,83,183,604" FontSize="16"/>
+                    <TextBox x:Name="txtPrenomClient" TextWrapping="Wrap" Margin="1069,182,441,505" FontSize="16"/>
+                    <TextBox x:Name="txtVilleClient" TextWrapping="Wrap" Margin="1069,268,441,419" FontSize="16"/>
+                    <TextBox x:Name="txtMailClient" TextWrapping="Wrap" Margin="1069,368,441,319" FontSize="16"/>
+                    <TextBox x:Name="txtAdresseClient" TextWrapping="Wrap" Margin="1327,182,183,505" FontSize="16"/>
+                    <TextBox x:Name="txtCpClient" TextWrapping="Wrap" Margin="1327,268,183,419" FontSize="16"/>
+                    <TextBox x:Name="txtTelClient" TextWrapping="Wrap" Margin="1327,368,183,319" FontSize="16"/>
+                    <ComboBox x:Name="cboSirenClient" ItemsSource="{Binding}" Margin="1327,513,183,0" VerticalAlignment="Top" FontSize="16" Height="43" IsSynchronizedWithCurrentItem="True" IsEditable="True" SelectionChanged="cboSirenClient_SelectionChanged"/>
+                    <Button x:Name="btnClientAjouter" Content="Ajouter" Margin="1069,474,441,207" Click="btnClientAjouter_Click" Height="Auto"/>
+                    <Button x:Name="btnClientSupprimer" Content="Supprimer" Margin="1069,593,441,95" Height="Auto" Click="btnClientSupprimer_Click"/>
+                    <Button x:Name="btnClientModifier" Content="Modifier" Margin="1069,534,441,149" Height="Auto" Click="btnClientModifier_Click"/>
+                    <Label Content="Num Client :" Margin="0,45,549,643" FontSize="16" HorizontalAlignment="Right"/>
+                    <Label Content="Nom Client :" Margin="0,42,290,643" FontSize="16" HorizontalAlignment="Right"/>
+                    <Label Content="Prenom  Client :" Margin="0,149,523,539" FontSize="16" HorizontalAlignment="Right"/>
+                    <Label Content="Adresse Client :" Margin="0,149,265,539" FontSize="16" HorizontalAlignment="Right"/>
+                    <Label Content="Ville Client :" Margin="0,230,553,454" FontSize="16" HorizontalAlignment="Right"/>
+                    <Label Content="Cp Client :" Margin="0,230,305,454" FontSize="16" HorizontalAlignment="Right"/>
+                    <Label Content="Mail Client :" Margin="0,335,553,353" FontSize="16" HorizontalAlignment="Right"/>
+                    <Label Content="Tel Client :" Margin="0,335,302,353" FontSize="16" HorizontalAlignment="Right"/>
+                    <Label Content="Num Siren Entreprise :" Margin="0,428,219,260" FontSize="16" HorizontalAlignment="Right"/>
+                    <TextBox x:Name="txtSirenClient" TextWrapping="Wrap" Margin="1326,452,183,228"/>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="tabProspect" Header="Prospects">
+                <Grid Background="#48484e">
+                    <DataGrid x:Name="dtgProspect" ItemsSource="{Binding}" IsReadOnly="True" Margin="10,10,694,10" SelectionChanged="dtgProspect_SelectionChanged" IsSynchronizedWithCurrentItem="True"/>
+                    <TextBox x:Name="txtNumProspect" TextWrapping="Wrap" Margin="1069,58,441,628" FontSize="16"/>
+                    <TextBox x:Name="txtNomProspect" TextWrapping="Wrap" Margin="1327,59,183,628" FontSize="16"/>
+                    <TextBox x:Name="txtPrenomProspect" TextWrapping="Wrap" Margin="1069,162,441,525" FontSize="16"/>
+                    <TextBox x:Name="txtAdresseProspect" TextWrapping="Wrap" Margin="1069,253,441,433" FontSize="16"/>
+                    <TextBox x:Name="txtVilleProspect" TextWrapping="Wrap" Margin="1069,344,441,343" FontSize="16"/>
+                    <TextBox x:Name="txtCpProspect" TextWrapping="Wrap" Margin="1327,162,183,525" FontSize="16"/>
+                    <TextBox x:Name="txtMailProspect" TextWrapping="Wrap" Margin="1327,254,183,433" FontSize="16"/>
+                    <TextBox x:Name="txtTelProspect" TextWrapping="Wrap" Margin="1327,343,183,343" FontSize="16"/>
+                    <ComboBox x:Name="cboSirenProspect" ItemsSource="{Binding}" Margin="1327,488,183,0" FontSize="16" Height="61" VerticalAlignment="Top" IsSynchronizedWithCurrentItem="True" IsEditable="True" SelectionChanged="cboSirenProspect_SelectionChanged"/>
+                    <Button x:Name="btnProspectAjouter" Content="Ajouter Prospect" Margin="1069,469,441,216" Height="Auto" Click="btnProspectAjouter_Click"/>
+                    <Button x:Name="btnProspectSupprimer" Content="Supprimer Prospect" Margin="1069,597,441,92" Height="Auto" Click="btnProspectSupprimer_Click"/>
+                    <Button x:Name="btnProspectModifier" Content="Modifier Prospect" Margin="1069,535,441,155" Height="Auto" Click="btnProspectModifier_Click"/>
+                    <Label Content="Num Prospect :" Margin="0,26,553,663" FontSize="16" HorizontalAlignment="Right"/>
+                    <Label Content="Nom Prospect :" Margin="0,26,290,663" FontSize="16" HorizontalAlignment="Right"/>
+                    <Label Content="Prenom  Prospect :" Margin="0,124,524,564" FontSize="16" HorizontalAlignment="Right"/>
+                    <Label Content="Adresse Prospect :" Margin="0,124,266,564" FontSize="16" HorizontalAlignment="Right"/>
+                    <Label Content="Ville Prospect :" Margin="0,212,534,468" FontSize="16" HorizontalAlignment="Right"/>
+                    <Label Content="Cp Prospect :" Margin="0,212,280,468" FontSize="16" HorizontalAlignment="Right"/>
+                    <Label Content="Mail Prospect :" Margin="0,302,531,382" FontSize="16" HorizontalAlignment="Right"/>
+                    <Label Content="Tel Prospect :" Margin="0,302,280,382" FontSize="16" HorizontalAlignment="Right"/>
+                    <Label Content="Num Siren Entreprise :" Margin="0,395,219,292" FontSize="16" HorizontalAlignment="Right"/>
+                    <TextBox x:Name="txtSirenProspect" TextWrapping="Wrap" Margin="1327,444,183,242" FontSize="16"/>
+                    <Button x:Name="btnPasserProspectClient" Content="Passer Prospect Client" Margin="1327,587,183,97" Height="Auto" Click="btnPasserProspectClient_Click"/>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="tabCommerciaux" Header="Commerciaux">
+                <Grid Background="#48484e">
+                    <DataGrid x:Name="dtgCommerciaux" ItemsSource="{Binding}" IsReadOnly="True" Margin="10,10,694,10" SelectionChanged="dtgCommerciaux_SelectionChanged" IsSynchronizedWithCurrentItem="True"/>
+                    <TextBox x:Name="txtNumCommerciaux" TextWrapping="Wrap" Margin="1069,58,441,628" FontSize="16"/>
+                    <TextBox x:Name="txtNomCommerciaux" TextWrapping="Wrap" Margin="1327,59,183,628" FontSize="16"/>
+                    <TextBox x:Name="txtPrenomCommerciaux" TextWrapping="Wrap" Margin="1069,162,441,525" FontSize="16"/>
+                    <TextBox x:Name="txtAdresseCommerciaux" TextWrapping="Wrap" Margin="1069,253,441,433" FontSize="16"/>
+                    <TextBox x:Name="txtVilleCommerciaux" TextWrapping="Wrap" Margin="1069,344,441,343" FontSize="16"/>
+                    <TextBox x:Name="txtCpCommerciaux" TextWrapping="Wrap" Margin="1327,162,183,525" FontSize="16"/>
+                    <TextBox x:Name="txtMailCommerciaux" TextWrapping="Wrap" Margin="1327,254,183,433" FontSize="16"/>
+                    <TextBox x:Name="txtTelCommerciaux" TextWrapping="Wrap" Margin="1327,343,183,343" FontSize="16"/>
+                    <Button x:Name="btnCommerciauxAjouter" Content="Ajouter Commerciaux" Margin="1069,434,441,256" Height="Auto" Click="btnCommerciauxAjouter_Click"/>
+                    <Button x:Name="btnCommerciauxSupprimer" Content="Supprimer Commerciaux" Margin="1069,550,441,138" Height="Auto" Click="btnCommerciauxSupprimer_Click"/>
+                    <Button x:Name="btnCommerciauxModifier" Content="Modifier Commerciaux" Margin="1069,490,441,199" Height="Auto" Click="btnCommerciauxModifier_Click"/>
+                    <Label Content="Num Commerciaux :" Margin="0,24,500,663" FontSize="16" HorizontalAlignment="Right"/>
+                    <Label Content="Nom Commerciaux :" Margin="0,24,240,662" FontSize="16" HorizontalAlignment="Right"/>
+                    <Label Content="Prenom  Commerciaux :" Margin="0,121,474,564" FontSize="16" HorizontalAlignment="Right"/>
+                    <Label Content="Adresse Commerciaux :" Margin="0,124,216,564" FontSize="16" HorizontalAlignment="Right"/>
+                    <Label Content="Ville Commerciaux :" Margin="0,212,500,473" FontSize="16" HorizontalAlignment="Right"/>
+                    <Label Content="Cp Commerciaux :" Margin="0,212,255,472" FontSize="16" HorizontalAlignment="Right"/>
+                    <Label Content="Mail Commerciaux :" Margin="0,302,500,382" FontSize="16" HorizontalAlignment="Right"/>
+                    <Label Content="Tel Commerciaux :" Margin="0,302,253,383" FontSize="16" HorizontalAlignment="Right"/>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="tabStatistique" Header="Statistique">
+                <Grid Background="#48484e">
+
+                    <oxy:PlotView x:Name="plotView"/>
+                    <Button x:Name="btnActualiseGraphique" Content="Actualiser Graphique" Margin="1282,-97,70,568" Click="btnActualiseGraphique_Click"/>
+                    <Button x:Name="btnCaptureGraphique" Content="Capture Graphique" Margin="1282,-41,70,514" Click="btnCaptureGraphique_Click"/>
+
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
