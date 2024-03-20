@@ -40,6 +40,7 @@ namespace Lourde
     /// </summary>
     public partial class MainWindow : Window
     {
+        //Teste
         /// <summary>
         /// Créé plusieurs listes, qui correspondent aux tables de la BDD, et que l'on utilisera dans l'application, 
         /// et qui seront par la suite remplis grâce à certaines méthode dans la classe Bdd
